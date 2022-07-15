@@ -1,0 +1,101 @@
+.carousel-inner img
+
+{
+    width: 10rem;
+   
+}
+.card
+{
+    position: relative;
+}
+.card .btn
+{
+    display: block;
+}
+.card .sondakika
+{
+    background-color: #E50914;
+    color: white;
+    position: absolute;
+    padding: 6px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.card .havad
+{
+    background-color: #146EB4;
+    color: white;
+    position: absolute;
+    padding: 6px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+#two .card 
+{
+    width: 25%;
+}
+@media(max-width:768px)
+{
+    #two .card 
+    {
+        width: 100%;
+    }
+    .card:hover
+    {
+        transform: none;
+        transition: none;
+        z-index: none;
+        box-shadow: none;
+        border-radius:  none;
+    }
+}
+.card:hover
+{
+    transform: scale(1.1);
+    transition: 0.5s;
+    z-index: 1;
+    box-shadow: 1rem 1rem 0.5rem;
+    border-radius: 0.5rem;
+}
+.haber
+{
+    margin: 5px;
+    letter-spacing: 1px;
+    box-shadow: 6px 6px 3px;
+}
+.card img
+{
+    width: 100%;
+   
+}
+
+.linkler
+{
+    text-align: center;
+}
+.linkler ul 
+{
+    
+    text-align: center;
+    display: flex;
+}
+.linkler ul a
+{
+    text-decoration:none;
+}
+a
+{
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #004883;
+}
+.sd
+{
+    background-color: #ED1C16;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    z-index: 1;
+    padding: 0.5rem;
+}
